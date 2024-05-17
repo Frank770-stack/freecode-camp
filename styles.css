@@ -1,0 +1,13 @@
+#title {
+  color: blue;
+  text-align: center;
+}
+#description {
+  color: tomato;
+}
+body {
+  background-color: aliceblue;
+}
+#submit {
+  background-color: blue;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="title">WEB-DEV-TECHIES SURVEY FORM</h1>
+    </header>
+    <p id="description">
+      Thank you so much for taking the time to participate in our survey at Web
+      Dev Techies! Your valuable insights are incredibly important to us as we
+      strive to enhance our services and offerings. Your feedback helps us
+      better understand our strengths and areas for improvement, ultimately
+      enabling us to serve you and our community even better. We truly
+      appreciate your contribution and look forward to continuing to exceed your
+      expectations.
+    </p>
+    <form id="survey-form">
+      <label for="name">Name:</label>
+      <input
+        type="text"
+        id="name-label"
+        name="name"
+        required
+        placeholder="Enter Your Name"
+      /><br /><br />
+      <label for="email">Email:</label>
+      <input
+        type="text"
+        id="email-label"
+        name="email"
+        required
+        placeholder="Enter Your Email"
+      /><br /><br />
+      <label for="name">Phone number:</label>
+      <input
+        type="text"
+        id="number-label"
+        name="number"
+        min="1"
+        max="100"
+        required
+        placeholder="Enter Your Phone number"
+      /><br /><br />
+      <label for="information">How did you know about us:</label><br />
+      <select id="information" name="information">
+        <option value="Referral">Referral</option>
+        <option value="Billboards">Billboards</option>
+        <option value="Social Media">Social Media</option></select
+      ><br /><br />
+      <label for="message">Message:</label><br />
+      <textarea
+        id="message"
+        name="message"
+        rows="4"
+        cols="50"
+        placeholder="Enter your message here"
+        required
+      ></textarea
+      ><br /><br />
+      <button id="submit">Submit</button>
+    </form>
+  </body>
+</html>
